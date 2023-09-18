@@ -6,7 +6,7 @@ import Border from './Border';
 
 const PortfolioContainer = ({ children }) => {
   return (
-    <div className="max-w-screen-lg mx-auto h-screen overflow-y-scroll">
+    <div >
       <Border />
       <Header />
       {children}

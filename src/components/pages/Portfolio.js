@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import Card from "../Card";
 import backgroundPortfolio from "../images/backgroundPortfolio.gif";
+import downloadIcon from "../images/downloadIcon.png";
 import {BsChevronCompactLeft, BsChevronCompactRight} from 'react-icons/bs';
 import { RxDotFilled } from 'react-icons/rx';
 import {Carousel, initTE} from "tw-elements";
@@ -21,7 +22,7 @@ const Portfolio = () => {
     },
     {
       title: "Parktivities",
-      img: backgroundPortfolio,
+      img: downloadIcon,
       depLink: "https://shale00.github.io/Parktivities/",
       gitHubLink: "https://github.com/shale00/Parktivities",
       alt: "Snapshot of the Parktivities app.",
@@ -39,7 +40,7 @@ const Portfolio = () => {
     },
     {
       title: "Work Day Scheduler",
-      img: backgroundPortfolio,
+      img: downloadIcon,
       depLink: "https://shale00.github.io/Work-Day-Scheduler/",
       gitHubLink: "https://github.com/shale00/Work-Day-Scheduler",
       alt: "A gif of the app.",

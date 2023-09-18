@@ -7,6 +7,9 @@ import Resume from './components/pages/Resume';
 import Contact from './components/pages/Contact';
 import Border from './components/Border';
 
+
+
+
 const App = () => {
   const [currentPage, setCurrentPage] = useState("Home");
 
