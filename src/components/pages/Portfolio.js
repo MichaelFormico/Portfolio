@@ -29,7 +29,7 @@ const Portfolio = () => {
       gitHubLink: "https://github.com/MichaelFormico/Bird_Project",
       alt: "",
       description:
-        "This is a simple weather app that allows the user to search a city and display the weather data. The app will save the users search history and allow the user to recall the weather data from their history as well.",
+        "A unique app that can show you the different sounds birds make. Take a search and see some very interesting birds and hear the sounds they make!",
     },
     {
       title: "Work Day Scheduler",
@@ -47,7 +47,7 @@ const Portfolio = () => {
       gitHubLink: "https://github.com/shale00/Code-Quiz",
       alt: "Screenshot of app",
       description:
-        "A quiz to test your knowledge of basic coding in javascript. This app was developed using just HTML, CSS, and Javascript.",
+        "The first iteration of Cohort Retort. A much more basic social networking app to connect with classmates. Not quite as many features as Cohort Retort, but a very cool app in its own right.",
     },
   ];
 
@@ -95,7 +95,7 @@ const Portfolio = () => {
               onClick={() => goToSlide(slideIndex)}
               className="text-2xl cursor-pointer"
             >
-              <RxDotFilled />
+              <RxDotFilled className="teal" />
             </div>
           ))}
         </div>
