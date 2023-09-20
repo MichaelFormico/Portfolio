@@ -14,7 +14,7 @@ const App = () => {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <Router>
+    <Router basename="/Portfolio">
       <Border>
         <div className="scrollable-container">
         <Header handlePageChange={handlePageChange} />
