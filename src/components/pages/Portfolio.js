@@ -1,10 +1,9 @@
 import React, {useState} from "react";
 import Card from "../Card";
-import backgroundPortfolio from "../images/backgroundPortfolio.gif";
-import cohortImage from "../images/Cohort-Retort.png";
-import birdImage from "../images/birdProject.png";
-import codeImage from "../images/codeboard.png";
-import workImage from "../images/WorkDay.png";
+import cohortImage from "../images/cohortSS.png";
+import birdImage from "../images/birdSS.png";
+import codeImage from "../images/codeSS.png";
+import workImage from "../images/workdaySS.png";
 import {BsChevronCompactLeft, BsChevronCompactRight} from 'react-icons/bs';
 import { RxDotFilled } from 'react-icons/rx';
 import {Carousel, initTE} from "tw-elements";

@@ -6,9 +6,7 @@ import Portfolio from './components/pages/Portfolio';
 import Resume from './components/pages/Resume';
 import Contact from './components/pages/Contact';
 import Border from './components/Border';
-
-
-
+import './App.css'; // Import your CSS file with the scrollable-container class
 
 const App = () => {
   const [currentPage, setCurrentPage] = useState("Home");
@@ -18,16 +16,19 @@ const App = () => {
   return (
     <Router>
       <Border>
+        <div className="scrollable-container">
         <Header handlePageChange={handlePageChange} />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/resume" element={<Resume />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/resume" element={<Resume />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </div>
       </Border>
     </Router>
   );
 };
 
 export default App;
+

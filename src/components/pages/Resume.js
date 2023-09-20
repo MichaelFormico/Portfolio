@@ -67,7 +67,7 @@ const Resume = () => {
         <img src={npmIcon} alt="npm Icon" />
         <img src={nodeIcon} alt="Node.js Icon" />
       </div>
-      <div className="flex justify-center items-center mt-4 pt-20">
+      <div className="flex justify-center items-center mt-4 pt-10">
         <img src={downloadIcon} alt="Download Icon" className="w-6 h-6 mr-2" />
         <span className="text-lg text-teal font-custom">Resume Download</span>
       </div>

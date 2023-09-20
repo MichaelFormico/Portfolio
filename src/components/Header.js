@@ -10,7 +10,7 @@ const Header = () => {
         <Link to="/" className="text-5xl font-bold font-custom hover:text-yellow-200">
           Michael Formico
         </Link>
-        <div className='text-sm pb-32 pl-4 font-custom text-yellow-200'>
+        <div className='text-sm pb-20 pl-4 font-custom text-yellow-200'>
           Designer and Developer
         </div>
         <nav>

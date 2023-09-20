@@ -38,4 +38,8 @@
   }
 }
 
+.scrollable-container {
+  overflow-y: auto;
+  max-height: calc(100vh - 50px); /* Adjust the 50px value according to your header height */
+}
 
