@@ -1,7 +1,10 @@
 import React, {useState} from "react";
 import Card from "../Card";
 import backgroundPortfolio from "../images/backgroundPortfolio.gif";
-import downloadIcon from "../images/downloadIcon.png";
+import cohortImage from "../images/Cohort-Retort.png";
+import birdImage from "../images/birdProject.png";
+import codeImage from "../images/codeboard.png";
+import workImage from "../images/WorkDay.png";
 import {BsChevronCompactLeft, BsChevronCompactRight} from 'react-icons/bs';
 import { RxDotFilled } from 'react-icons/rx';
 import {Carousel, initTE} from "tw-elements";
@@ -13,44 +16,35 @@ const Portfolio = () => {
   const slides = [
     {
       title: "Cohort Retort",
-      img: backgroundPortfolio,
+      img: cohortImage,
       depLink: "https://cohort-retort-v1-3ead1d24c761.herokuapp.com",
-      gitHubLink: "https://github.com/shale00/Cohort-Retort",
+      gitHubLink: "https://github.com/MichaelFormico/Cohort-Retort",
       alt: "Snapshot of a cohort-retort webpage",
       description:
-        "This app was created using a full MERN stack. It is a social networking app designed to keep classmates in touch. Users can create an account and post messages and comments. Each user has their own profile page, where the user can update their information. To sign in as a guest user: Email: guest@email.com Password: password",
+        "This app was created using a full MERN stack. It is a social networking app designed to keep classmates in touch. Each user has their own profile page, where the user can update their information. To sign in as a guest user: Email: guest@email.com Password: password",
     },
     {
-      title: "Parktivities",
-      img: downloadIcon,
-      depLink: "https://shale00.github.io/Parktivities/",
-      gitHubLink: "https://github.com/shale00/Parktivities",
-      alt: "Snapshot of the Parktivities app.",
-      description:
-        "This app allows the user to search national parks via state or activity. It was created using HTML, CSS, and JavaScript and uses two different 3rd Party API's to retrieve the park data and the state flag for each park respectively. It also stores the user's search history using local storage.",
-    },
-    {
-      title: "Weather Dashboard",
-      img: backgroundPortfolio,
-      depLink: "https://shale00.github.io/Weather-Dashboard/",
-      gitHubLink: "https://github.com/shale00/Weather-Dashboard",
+      title: "Bird Project",
+      img: birdImage,
+      depLink: "https://michaelformico.github.io/Bird_Project/",
+      gitHubLink: "https://github.com/MichaelFormico/Bird_Project",
       alt: "",
       description:
         "This is a simple weather app that allows the user to search a city and display the weather data. The app will save the users search history and allow the user to recall the weather data from their history as well.",
     },
     {
       title: "Work Day Scheduler",
-      img: downloadIcon,
-      depLink: "https://shale00.github.io/Work-Day-Scheduler/",
-      gitHubLink: "https://github.com/shale00/Work-Day-Scheduler",
+      img: workImage,
+      depLink: "https://michaelformico.github.io/Work-Day-Scheduler/",
+      gitHubLink: "https://github.com/MichaelFormico/Work-Day-Scheduler",
       alt: "A gif of the app.",
       description:
         "A simple calendar application that allows a user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.",
     },
     {
-      title: "Code Quiz",
-      img: backgroundPortfolio,
-      depLink: "https://shale00.github.io/Code-Quiz/",
+      title: "Code Board",
+      img: codeImage,
+      depLink: "https://codeboard.herokuapp.com/login",
       gitHubLink: "https://github.com/shale00/Code-Quiz",
       alt: "Screenshot of app",
       description:
@@ -77,8 +71,8 @@ const Portfolio = () => {
   };
 
    return (
-    <div className="h-screen flex justify-center items-center"> {/* Center content */}
-      <div className="max-w-lg h-[750px] justify-center relative group">
+    <div className="flex justify-center items-center"> {/* Center content */}
+      <div className="max-w-lg justify-center relative group">
         <Card
           title={slides[currentIndex].title}
           img={slides[currentIndex].img}

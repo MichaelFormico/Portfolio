@@ -49,13 +49,18 @@ const Card = ({ title, img, depLink, gitHubLink, alt, description }) => {
             {title}
           </p>
         </div>
-        <p
-          className={`lg:m-6 text-left text-xs sm:text-base lg:text-lg lg:max-w-prose display-none-xxs ${
-            hovered ? "opacity-100" : "opacity-0"
-          } transition-all duration-1000`}
-        >
-          {description}
-        </p>
+        
+        {/* Wrap this div with a fixed height and overflow-y: auto */}
+        <div className="overflow-y-auto max-h-40"> 
+          <p
+            className={`lg:m-6 text-left text-xs sm:text-base lg:text-lg lg:max-w-prose display-none-xxs ${
+              hovered ? "opacity-100" : "opacity-0"
+            } transition-all duration-1000`}
+          >
+            {description}
+          </p>
+        </div>
+        
         <div className="flex space-x-4 justify-center lg:pt-2">
           <a
             href={depLink}
