@@ -45,6 +45,27 @@ const Resume = () => {
         <img src={npmIcon} alt="npm Icon" />
         <img src={nodeIcon} alt="Node.js Icon" />
       </div>
+      <div className="logos-slide">
+        <img src={htmlIcon} alt="HTML Icon" />
+        <img src={cssIcon} alt="CSS Icon" />
+        <img src={javaScriptIcon} alt="JavaScript Icon" />
+        <img src={mysqlIcon} alt="MySQL Icon" />
+        <img src={mongoDbIcon} alt="MongoDB Icon" />
+        <img src={mongooseIcon} alt="Mongoose Icon" />
+        <img src={gitIcon} alt="Git Icon" />
+        <img src={gitHubIcon} alt="GitHub Icon" />
+        <img src={gitLabIcon} alt="GitLab Icon" />
+        <img src={vsCodeIcon} alt="Visual Studio Code Icon" />
+        <img src={reactIcon} alt="React Icon" />
+        <img src={tailwindIcon} alt="Tailwind CSS Icon" />
+        <img src={bootstrapIcon} alt="Bootstrap Icon" />
+        <img src={jqueryIcon} alt="jQuery Icon" />
+        <img src={restApiIcon} alt="REST API Icon" />
+        <img src={expressJsIcon} alt="Express.js Icon" />
+        <img src={herokuIcon} alt="Heroku Icon" />
+        <img src={npmIcon} alt="npm Icon" />
+        <img src={nodeIcon} alt="Node.js Icon" />
+      </div>
 
       <div className="logos-slide">
         <img src={htmlIcon} alt="HTML Icon" />
@@ -68,7 +89,17 @@ const Resume = () => {
         <img src={nodeIcon} alt="Node.js Icon" />
       </div>
       <div className="flex justify-center items-center mt-4 pt-10">
-        <img src={downloadIcon} alt="Download Icon" className="w-6 h-6 mr-2" />
+        <a
+          href="https://www.google.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src={downloadIcon}
+            alt="Download Icon"
+            className="w-6 h-6 mr-2 hover:scale-125"
+          />
+        </a>
         <span className="text-lg text-teal font-custom">Resume Download</span>
       </div>
     </div>
