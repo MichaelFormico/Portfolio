@@ -90,7 +90,7 @@ const Resume = () => {
       </div>
       <div className="flex justify-center items-center mt-4 pt-10">
         <a
-          href="https://www.google.com"
+          href="https://docs.google.com/document/d/1oLTz7SOeZbaQUWxbCkmhaBpghFF3-x-fHqEUA2SMnSI/edit"
           target="_blank"
           rel="noopener noreferrer"
         >
