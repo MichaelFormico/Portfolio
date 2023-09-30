@@ -1,0 +1,8 @@
+#backgroundgif {
+    background-image: url('./images/backgroundPortfolio.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh; /* Set the container's height to 100% of the viewport height */
+    width: 100%; /* Set the container's width to 100% of its parent's width */
+}
